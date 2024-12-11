@@ -6,13 +6,14 @@
     <link rel="stylesheet" href="src/style.css" />
     <link rel="stylesheet" href="https://use.typekit.net/hkj8ysh.css" />
     <link rel="stylesheet" href="https://use.typekit.net/hkj8ysh.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Dutch Poem Generator</title>
   </head>
   <body>
     <div class="container">
       <h1>AI Dutch Poem Generator</h1>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the Dutch poem"
@@ -23,11 +24,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poam">
-          The poem will go here
-          <br />
-          The poem will go here
-        </div>
+        <div class="poam" id="poem"></div>
       </main>
       <footer>
         This AI project was codes by
