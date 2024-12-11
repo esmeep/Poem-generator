@@ -4,40 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/hkj8ysh.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/hkj8ysh.css" />
     <title>AI Dutch Poem Generator</title>
   </head>
   <body>
-    <h1>AI Dutch Poem Generator</h1>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the Dutch poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-      </div>
-    </main>
-    <footer>
-      This AI project was codes by
-      <a href="https://github.com/esmeep" target="_blank">Esmee Peters </a>and
-      is
-      <a href="https://github.com/esmeep/Poem-generator" target="_blank">
-        open-sourced on Github</a
-      >
-      and is
-      <a href="https://dutch-poems.netlify.app" target="_blank"
-        >Hosted on Netlify</a
-      >
-    </footer>
-
+    <div class="container">
+      <h1>AI Dutch Poem Generator</h1>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the Dutch poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poam">
+          The poem will go here
+          <br />
+          The poem will go here
+        </div>
+      </main>
+      <footer>
+        This AI project was codes by
+        <a href="https://github.com/esmeep" target="_blank">Esmee Peters </a>and
+        is
+        <a href="https://github.com/esmeep/Poem-generator" target="_blank">
+          open-sourced on Github</a
+        >
+        and is
+        <a href="https://dutch-poems.netlify.app" target="_blank"
+          >Hosted on Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
