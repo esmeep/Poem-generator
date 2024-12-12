@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://use.typekit.net/hkj8ysh.css" />
     <link rel="stylesheet" href="https://use.typekit.net/hkj8ysh.css" />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>AI Dutch Poem Generator</title>
   </head>
   <body>
@@ -21,10 +22,11 @@
             required
             autocomplete="off"
             class="instructions"
+            id="user-instrutions"
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poam" id="poem"></div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project was codes by
