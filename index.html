@@ -14,18 +14,21 @@
     <div class="container">
       <h1>AI Dutch Poem Generator</h1>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the Dutch poem"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instrutions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the Dutch poem"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instrutions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">B.v: Bloem, Amsterdam, utrecht, Kaas</div>
+        </div>
         <div class="poem" id="poem"></div>
       </main>
       <footer>
